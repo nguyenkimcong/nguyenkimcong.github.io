@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #696969;
+}
+a:hover {
+    color: brown;
+}
+.container {
+    width: 1000px;
+    margin: auto;
+}
+.menu {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.menu ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.menu img {
+    margin: o 15px -20px;
+}
+.menu img:hover {
+    opacity: 0;
+}
+.slice{
+    margin-top: 30px;
+    position: relative;
+}
+.slice .left {
+    width: 400px;
+    position: absolute;
+    flex: 75px;
+    top: 120px;
+}
+.slice .left h2{
+    font-size: 80px;
+    color: rgb(189, 84, 84);
+}
+.slice img {
+    width: 100%;
+    height:850px;
+}
+.btn {
+    padding: 15px 55px;
+    background-color: rgb(114, 102, 102);
+border-radius: 30px;
+color: #fff ;
+font-size: 18px;
+text-transform: capitalize;
+cursor: pointer;
+border: none;
+margin-top: 20px;
+}
+
+.slice .right{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.hidden{
+    background-color: #fff;
+    color: #fff;
+    margin-right:  30px;
+    border:  none;
+    font-size:  40px;
+    cursor: pointer;
+   
+}
+.hidden :hover {
+    color: #464444;
+}
+.container p {
+    color: rgb(167, 37, 37);
+    margin: 0 30px 12px; 
+    font-size: 30px;
+}
+    
